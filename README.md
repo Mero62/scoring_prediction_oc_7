@@ -16,8 +16,20 @@ Les données utilisées sont disponibles à cette adresse : https://www.kaggle.c
 3. Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.
 4. Evaluer le data drift entre les données initiales et les données qui permettent de tester le modèle de scoring.
 
+## Les différents files présents 
+
+1. api_scoring_prediction.py : code Python de l'API (Flask)
+2. dashboard_scoring_prediction.py : code Python du dashboard (Streamlit)
+3. api_scoring_prediction.py : Notebook Jupyter qui regroupe l'EDA & la modélisation pour la classification binaire 
+4. Le reste sont les données retenues pour le dashboard, le modèle sous format pickle, des dossiers supports pour Heroku...
+
+
 
 ## Le dashboard
-Le dashboard a été réalisé avec Streamlit et à l'aide d'une API elle-même réalisée avec FastAPI. Le déploiement sur une plateforme Cloud n'étant plus nécessaire (et parce que je n'ai pas d'argent pour le hosting), la démonstration du fonctionnement de l'API et du Dashboard sont réalisées en local. 
+Le dashboard a été réalisé avec Streamlit et à l'aide d'une API elle-même réalisée avec FastAPI. L'API a été déployé sur le cloud (Heroku) à l'adresse suivante :
 
-Le dashboard présenté est celui pour un client dont le prêt a été accordé.
+https://predictionscoringmk-e22bc31f0151.herokuapp.com/ 
+
+et le dashboard à l'adresse suivante : 
+
+https://predictiondashboardmk-bec0e3ebd521.herokuapp.com/
