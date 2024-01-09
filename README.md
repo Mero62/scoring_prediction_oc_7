@@ -20,7 +20,7 @@ Les données utilisées sont disponibles à cette adresse : https://www.kaggle.c
 
 1. api_scoring_prediction.py : code Python de l'API (Flask)
 2. dashboard_scoring_prediction.py : code Python du dashboard (Streamlit)
-3. api_scoring_prediction.py : Notebook Jupyter qui regroupe l'EDA & la modélisation pour la classification binaire 
+3. notebook_eda_modelisation.zip : Notebook Jupyter qui regroupe l'EDA & la modélisation pour la classification binaire 
 4. Le reste sont les données retenues pour le dashboard, le modèle sous format pickle, des dossiers supports pour Heroku...
 
 
