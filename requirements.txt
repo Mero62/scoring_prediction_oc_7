@@ -1,3 +1,4 @@
+Python==3.11
 mlflow<3,>=2.3
 cffi==1.15.1
 cloudpickle==2.2.1
