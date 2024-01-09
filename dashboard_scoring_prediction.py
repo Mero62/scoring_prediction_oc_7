@@ -20,7 +20,7 @@ import seaborn as sns
 
 
 # local
-API_URL = "http://127.0.0.1:5000/"
+API_URL = "https://predictionscoringmk-e22bc31f0151.herokuapp.com/"
 
 
 # Chargement des dataset
